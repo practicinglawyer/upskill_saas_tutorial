@@ -29,9 +29,27 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 
 }
 
-.navbar{
+.navbar {
   border:none;
+  color: white;
   
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover{
+  color:white;
+  opacity:0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color:white;
+  opacity:0.75;
 }
 
 .home-callout{
@@ -39,4 +57,3 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
   paddding-top: 50px;
   padding-bottom: 100px;
 }
-
