@@ -54,6 +54,19 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
   opacity:0.75;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border:2px solid white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  background-color:#f64f59 ;
+}
+
 .home-callout{
   margin-top: -20px;
   paddding-top: 50px;
